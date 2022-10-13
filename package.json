@@ -1,16 +1,13 @@
-{
-  "homepage": "https://HackArtifact.github.io/HackArtifact.github.io",
 
-  
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  {"homepage": "https://sw-y.com/",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
-    "deploy": "gh-pages -d dist"
+      "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+  
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
