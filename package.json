@@ -1,0 +1,34 @@
+{
+  "name": "e-commerce2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.4.2",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "sass": "^1.55.0",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}

@@ -1,0 +1,160 @@
+/* Style for CountScreen */
+.bgGradientCountScreen {
+  background: linear-gradient(180deg, #003D69 0%, #000000 100%);
+}
+.bgGradientCountScreenActive {
+  background: #E0E5ED;
+}
+.bgColorInputCountScreen {
+  background-color: #C4D3FF;
+}
+.bgColorMain {
+  background: linear-gradient(180deg, #E6EFFF 6.17%, rgba(255, 255, 255, 0) 100%);
+}
+.bgCheckout {
+  background: linear-gradient(90.09deg, #FF8A00 -3.65%, #E40057 25.4%, #8C00CE 48.63%, #00C2FF 71.43%, #0500FF 92.58%);
+}
+.bgNavOnline {
+  background: linear-gradient(130.52deg, #D5E4FF 20.8%, rgba(213, 228, 255, 0) 104.24%);
+}
+.form-control::placeholder {
+  color: #299ef373;
+  font-weight: 700;
+  font-size: 20px;
+}
+.textnav {
+  color: #272D4E;
+}
+
+.bgMenu {
+  background-color: #E9F2FF;
+}
+
+.bgLoadingBlueCard {
+  background: linear-gradient(134.57deg, #5AB0FF -0.76%, #0079FF 100%);
+}
+
+.bgLoadingPurpleCard {
+  background: linear-gradient(134.57deg, #B229F3 -0.76%, #F329C7 100%);
+}
+
+.roboto {
+  font-family: 'Roboto, sans-serif';
+}
+
+.sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+   url("../fonts/raleway/static/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+.raleway {
+  font-family: 'Raleway';
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+   url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url("../fonts/montserrat/static/Montserrat-Medium.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+   url("../fonts/roboto/Roboto-Black.ttf") format("truetype");
+  }
+
+.roboto {
+  font-family: Roboto;
+}
+
+
+.graylight {
+  color: #94A2B3;
+}
+
+.btnGradientRight {
+  background: linear-gradient(96.26deg, #5AB0FF 21.99%, #0079FF 68.41%);
+}
+
+.gradiente {
+  background:
+    linear-gradient(90deg, rgba(255, 199, 0, 0.63) 3.81%, rgba(0, 255, 224, 0.727264) 25.22%, rgba(0, 133, 255, 0.567282) 37.78%, rgba(189, 255, 0, 0.433478) 48.29%, rgba(255, 230, 0, 0.297312) 58.98%, #FF0000 82.32%);
+  filter: blur(54.5px);
+  position: relative;
+  width: 486.07px;
+  height: 207.46px;
+  left: -43px;
+}
+
+.bluebold {
+  color: #272D4E;
+}
+
+.backgroundMenuClick {
+  background-color: #D5E4FF;
+}
+
+.input {
+  background: rgba(5, 0, 255, 0.08);
+  border-radius: 94px;
+}
+
+.shadowHome {
+  background: rgba(189, 183, 255, 0.08);
+  box-shadow: 0px -37px 18px rgba(160, 183, 221, 0.5);
+}
+
+.spacing {
+  letter-spacing: 0.69em;
+}
+
+.bgContainerHomeMobile {
+  background-image: url('../assets/images/gradientMobile.png');
+  background-repeat: no-repeat;
+  height: 1712px;
+  background-size: cover;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* .bgContainerDesktop {
+  background-image: url('../assets/images/gradientDesktop.png');
+  height: 1700px;
+  width: 100vw;
+} */
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7DB6F9 !important;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #7DB6F9 !important;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #7DB6F9 !important;
+}
