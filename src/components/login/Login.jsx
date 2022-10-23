@@ -89,8 +89,8 @@ import iconMenuDark from '../../assets/icons/iconMenuDark.svg';
             <img src={iconCircleLogin} alt="Icon Circle Login" className='absolute -left-6 -top-9 -z-10 lg:hidden' />
             <h2 className='sans font-bold text-[34px] text-[#272D4E] pl-[10%] pt-4 pb-3 mb-0'>Login:</h2>
             <form>
-              <input type="email" name="email" placeholder='Username/email' className='pl-2 w-[80%] h-[51px] ml-auto mr-auto block border rounded-xl placeholder:text-[16px]' required={true} />
-              <input type="password" name="password" placeholder='Password' className='pl-2 w-[80%] h-[51px] ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px]' />
+              <input type="email" name="email" placeholder='Username/email' className='pl-2 w-[80%] h-[51px] ml-auto mr-auto block border rounded-xl placeholder:text-[16px] outline-[#299EF3]' required={true} />
+              <input type="password" name="password" placeholder='Password' className='pl-2 w-[80%] h-[51px] ml-auto mr-auto block outline-[#299EF3] border rounded-xl mt-[18px] placeholder:text-[16px]' />
             </form>
             <a href="#" className='no-underline sans font-extrabold text-[15px] text-[#299EF3] pl-[10%]'>Forgot Password?</a>
             <NavLink to='/home' className='btnGradientRight mt-[18px] w-[80%] h-[47px] text-white sans font-medium text-[16px] ml-auto mr-auto no-underline text-center flex items-center justify-center rounded-full lg:w-[50%]' >Login</NavLink>

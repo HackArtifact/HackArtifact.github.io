@@ -80,7 +80,7 @@ const CountScreen = () => {
 
       </article>
 
-      <footer className='w-[90%] ml-auto mr-auto pt-[100px] gap-4 lg:pt-2 flex justify-center lg:gap-5 '>
+      <footer className='w-[90%] ml-auto mr-auto pt-[100px] gap-4 lg:pt-2 flex justify-center lg:gap-5'>
         <div className='w-[110px] h-[110px] lg:w-[110px] lg:h-[110px] bg-footerAndroid rounded-full flex items-center justify-center bg-[#418377]'>
           <img src={androidIcon} alt="Android logo" className='lg:w-1/2' />
         </div>

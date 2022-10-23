@@ -50,44 +50,44 @@ const SignUp = () => {
               name="" 
               id="username" 
               placeholder='Username' 
-              className='pl-2 w-[80%] h-[51px] outline-gray-500 ml-auto mr-auto mt-[10px] block border rounded-xl placeholder:text-[16px] lg:h-[30px]' />
+              className='pl-2 w-[80%] h-[51px] outline-[#299EF3] ml-auto mr-auto mt-[10px] block border rounded-xl placeholder:text-[16px] lg:h-[30px]' />
             <input 
               type="email" 
               name="" 
               id="email" 
               placeholder='Email' 
-              className='pl-2 w-[80%] h-[51px] outline-gray-500 ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
+              className='pl-2 w-[80%] h-[51px] outline-[#299EF3] ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
             <input 
               type="password" 
               name="" 
               id="password" 
               placeholder='Password' 
-              className='pl-2 w-[80%] h-[51px] outline-gray-500 ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
+              className='pl-2 w-[80%] h-[51px] outline-[#299EF3] ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
             <input 
               type="password" 
               name="" 
               id="confirm  password" 
               placeholder='confirm Password' 
-              className='pl-2 w-[80%] h-[51px] outline-gray-500 ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
+              className='pl-2 w-[80%] h-[51px] outline-[#299EF3] ml-auto mr-auto block border rounded-xl mt-[18px] placeholder:text-[16px] lg:h-[30px]' />
             <div className='flex justify-center items-center mt-[17px] gap-2'>
               <input 
                 type="text" 
                 name="" 
                 id="day" 
                 placeholder='29' 
-                className='w-[26%] h-[51px] outline-gray-500 block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
+                className='w-[26%] h-[51px] outline-[#299EF3] block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
               <input 
                 type="text" 
                 name="" 
                 id="month" 
                 placeholder='July' 
-                className='w-[26%] h-[51px] outline-gray-500 block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
+                className='w-[26%] h-[51px] outline-[#299EF3] block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
               <input 
                 type="text" 
                 name="" 
                 id="year" 
                 placeholder='2022' 
-                className='w-[26%] h-[51px] outline-gray-500 block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
+                className='w-[26%] h-[51px] outline-[#299EF3] block border rounded-xl placeholder:text-[16px] placeholder:text-center lg:h-[30px]' />
             </div>
             <div className='flex justify-center gap-1 mt-[17px]'>
               <div className='flex justify-center items-center w-[26%] h-[51px] border rounded-xl gap-2 lg:h-[30px]'>
